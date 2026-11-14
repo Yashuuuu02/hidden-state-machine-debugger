@@ -6,7 +6,15 @@ This repository contains Markdown instructions and reference templates. It has n
 
 ## Installation
 
-From the root of the project you want to audit:
+With Node.js and npm installed, run this command from the root of the project you want to audit:
+
+```sh
+npx skills add Yashuuuu02/hidden-state-machine-debugger
+```
+
+Follow the prompts to select your coding agent and installation scope. This uses the [Skills CLI](https://github.com/vercel-labs/skills) to download and install the skill from this repository.
+
+Alternatively, clone it manually into your agent's skills directory:
 
 ```sh
 git clone https://github.com/Yashuuuu02/hidden-state-machine-debugger.git .agents/skills/hidden-state-machine-debugger
